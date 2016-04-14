@@ -31,7 +31,12 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use unicorn as the app server
 gem 'unicorn'
 
-gem 'pry-byebug'
+gem 'pry-byebug', platform: [:ruby_20]
+
+# jp added for Jenkins
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
