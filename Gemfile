@@ -8,6 +8,9 @@ gem 'sqlite3'
 
 gem 'sidekiq', '~> 3.1.4'
 
+# jp added for Jenkins
+gem 'rspec-core'
+
 gem 'dalli'
 
 gem 'sass-rails', '~> 4.0.3'
@@ -31,7 +34,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use unicorn as the app server
 gem 'unicorn'
 
-gem 'pry-byebug'
+gem 'pry-byebug', platform: [:ruby_20]
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
