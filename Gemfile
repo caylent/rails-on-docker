@@ -8,6 +8,9 @@ gem 'sqlite3'
 
 gem 'sidekiq', '~> 3.1.4'
 
+# jp added for Jenkins
+gem 'rspec-core'
+
 gem 'dalli'
 
 gem 'sass-rails', '~> 4.0.3'
